@@ -2673,16 +2673,22 @@ input, select, textarea {
 
 
 	#one ul.features img {
-		max-width: 100%;
+		width: 100%;
 		overflow: hidden;
 	} 
 
 	#one ul.features > li:first-child {
 		padding: 1em;
+		display: flex;
+		flex-grow: none;
+		flex-shrink: none;
+		flex-direction: column;
+		justify-content: center;
 	}
 	
 	#one ul.features > li:last-child {
 		padding: 2em;
+
 	}
 /* Spotlight */
 
