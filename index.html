@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet"
+			href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -19,7 +21,20 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Emily Wu</a></h1>
+						<div class="header-left">
+							<ul class="header-icons icons">
+								<li><a href="https://github.com/emikyu" target="_blank" class="icon brands fa-github"><span
+											class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/huijiawu/" target="_blank" class="icon brands fa-linkedin"><span
+											class="label">LinkedIn</span></a></li>
+								<li><a href="https://angel.co/u/h-emily-wu" target="_blank" class="icon brands fa-angellist"><span
+											class="label">AngelList</span></a></li>
+								<li>
+									<h1><a href="index.html">Emily Wu</a></h1>
+								</li>
+
+							</ul>
+						</div>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -27,10 +42,11 @@
 									<div id="menu">
 										<ul>
 											<li><a href="#banner">Home</a></li>
-											<li><a href="#one">About Me</a></li>
-											<li><a href="#two">My Projects</a></li>
-											<li><a href="#three">My Skills</a></li>
-											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#one">About & Skills</a></li>
+											<li><a href="#two">Project Portfolio</a></li>
+											<!-- <li><a href="#three">Work & Education</a></li> -->
+											<li><a href="#cta">Contact</a></li>
+											<li><a href="images/Emily_Wu_Resume.pdf" target="_blank">Resume</a></li>
 
 										</ul>
 									</div>
@@ -46,6 +62,7 @@
 							<p>Software Engineer in New York, New York</p>
 							<ul class="actions special">
 								<li><a href="mailto:huijiawu90@gmail.com" class="button primary">Get in Touch</a></li>
+								<li><a href="images/Emily_Wu_Resume.pdf" target="_blank" class="button fit">Resume</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -56,13 +73,50 @@
 						<div class="inner">
 							<header class="major">
 								<h2>About Me</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<!-- <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p> -->
+								<ul class="features">
+									<li>
+										<img src="images/nekobook.png">
+									</li>
+									<li>
+										<p>Nice to meet you! My name is Emily Wu, and I am a software engineer located in New York, New York.</p>
+										<p>Although I enjoyed the challenging and face-paced nature as a prior mangement consultant, I've always been passionate about coding -- from experimenting with webmaking in middle school to learning myself new programming languages.</p>
+										<p>In Jan 2020, I enrolled in App Academy (a 16-week intensive full-stack web development bootcamp) to focus on being a full-fledged software engineer. </p>
+										<p>Recently, I have developed several projects using React, Redux, Ruby, Rails, Javascript, jQuery, Express, SQL, MongoDB, HTML, and CSS3, showcased below.</p>
+										</li>
+								</ul>
+							</header>
+						</div>
+						<div class="inner">
+							<header class="major">
+								<h2>Developer Toolkit</h2>
 							</header>
 							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+								<!-- <li><span class="icon devicon-react-original major style1"></span><br><span class="icon label">React</span></li>
+								<li><span class="icon devicon-ruby-plain major style2"></span><br><span class="icon label">Ruby</span></li>
+								<li><span class="icon devicon-rails-plain major style3"></span><br><span class="icon label">Rails</span></li>
+								<li><span class="icon devicon-javascript-plain major style1"></span><br><span class="icon label">JavaScript</span></li>
+								<li><span class="icon devicon-python-plain major style2"></span><br><span class="icon label">Python</span></li>
+								<li><span class="icon devicon-jquery-plain major style3"></span><br><span class="icon label">JQuery</span></li>
+								<li><span class="icon devicon-express-original major style1"></span><br><span class="icon label">Express</span></li>
+								<li><span class="icon devicon-postgresql-plain major style2"></span><br><span class="icon label">PostgreSQL</span></li> -->
+								<li><span class="icon devicon-react-original major style1"></span><br>React</li>
+								<li><span class="icon devicon-ruby-plain major style2"></span><br>Ruby</li>
+								<li><span class="icon devicon-rails-plain major style3"></span><br>Rails</li>
+								<li><span class="icon devicon-javascript-plain major style1"></span><br>JavaScript</li>
+							</ul>
+							<ul class="icons major">
+								<li><span class="icon devicon-python-plain major style2"></span><br>Python</li>
+								<li><span class="icon devicon-jquery-plain major style3"></span><br>JQuery</li>
+								<li><span class="icon devicon-express-original major style1"></span><br>Express</li>
+								<li><span class="icon devicon-postgresql-plain major style2"></span><br>PostgreSQL</li>
+							</ul>
+							<ul class="icons major">
+								<li><span class="icon devicon-mongodb-plain major style3"></span><br>MongoDB</li>
+								<li><span class="icon devicon-git-plain major style1"></span><br>Git</li>
+								<li><span class="icon devicon-html5-plain major style2"></span><br>HTML5</li>
+								<li><span class="icon devicon-css3-plain major style3"></span><br>CSS3</li>
 							</ul>
 						</div>
 					</section>
@@ -70,32 +124,30 @@
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="images/nekobook.png" alt="NekoBook screenshot" /></div><div class="content">
-								<h2>NekoBook</h2>
+							<div class="image"><a href="https://nekobook.herokuapp.com/" target="_blank"><img src="images/nekobook.png" alt="NekoBook screenshot" /></a></div><div class="content">
+								<h2>Project: NekoBook</h2>
 								<p>A full-stack single-page Facebook clone where users can make friends, edit their profiles and photos, write posts/comments, and keep up with their friends’ activities.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/8-ball.png" alt="" /></div><div class="content">
-								<h2>Eight-Ball Pool Simulator</h2>
+							<div class="image"><a href="https://emikyu.github.io/8ball_pool/" target="_blank"><img src="images/8-ball.png" alt="" /></a></div><div class="content">
+								<h2>Project: Eight-Ball Pool Simulator</h2>
 								<p>A vanilla JavaScript project simulating the gameplay mechanics of an eight-ball pool game, visualized using Canvas HTML.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/fishydex.png" alt="" /></div><div class="content">
-								<h2>FishyDex</h2>
+							<div class="image"><a href="https://fishy-app.herokuapp.com/" target="_blank"><img src="images/fishydex.png" alt="" /></a></div><div class="content">
+								<h2>Project: FishyDex</h2>
 								<p>A full-stack single-page web application where users can add/view information about fish and fishing spots and share their catches with other users.</p>
 							</div>
 						</section>
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
+					<!-- <section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Developer Toolkit</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Work Experience</h2>
 							</header>
 							<ul class="features">
 								<li class="icon fa-paper-plane">
@@ -110,32 +162,37 @@
 									<h3>Mus Scelerisque</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+							</ul>
+						</div>
+						<div class="inner">
+							<header class="major">
+								<h2>Education</h2>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane">
+									<h3>Arcu accumsan</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+										consequat consequat.</p>
 								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="icon solid fa-laptop">
+									<h3>Ac Augue Eget</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula
+										consequat consequat.</p>
 								</li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Contact Me</h2>
+								<p>I'm always open to hearing about new challenges and opportunities. Drop me a note, and let's work together!</p>
 							</header>
 							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="#" class="button fit primary">Say Hello!</a></li>
+								<li><a href="images/Emily_Wu_Resume.pdf" target="_blank" class="button fit">Resume</a></li>
 							</ul>
 						</div>
 					</section>
@@ -143,11 +200,9 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/emikyu" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/huijiawu/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://angel.co/u/h-emily-wu" target="_blank" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Emily Wu 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

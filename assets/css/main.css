@@ -2025,7 +2025,6 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -2053,11 +2052,12 @@ input, select, textarea {
 			border-radius: 3px;
 			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
+			font-size: 2em;
+			height: calc(2.25em + 2px);
+			line-height: 2.25em;
 			text-align: center;
-			width: calc(3em + 2px);
+			width: calc(2.25em + 2px);
+			margin: 0 1em;
 		}
 
 			.icon.major:before {
@@ -2173,6 +2173,7 @@ input, select, textarea {
 	dl {
 		margin: 0 0 2em 0;
 	}
+
 
 /* Actions */
 
@@ -2313,12 +2314,23 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
+			ul.icons.header-icons {
+				margin: 0;
+				padding: 0;
+			}
+
+			ul.icons.header-icons a {
+				margin: 0;
+				padding: 0;
+			}
+
 		ul.icons.major {
 			padding: 1em 0;
+			line-height: 3em;
 		}
 
 			ul.icons.major li {
-				padding-right: 3.5em;
+				padding-right: 2em;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -2658,6 +2670,21 @@ input, select, textarea {
 
 			}
 
+
+	#one ul.features img {
+		max-width: 100%;
+		overflow: hidden;
+	} 
+
+	#one ul.features > li:first-child {
+		padding: 1em;
+		width: 40%;
+	}
+	
+	#one ul.features > li:last-child {
+		padding: 2em;
+		width: 60%;
+	}
 /* Spotlight */
 
 	.spotlight {
@@ -3455,7 +3482,7 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
-		#header h1 {
+		#header div.header-left {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
@@ -3465,9 +3492,11 @@ input, select, textarea {
 			line-height: inherit;
 			position: absolute;
 			top: 0;
+			display: flex;
+			justify-content: flex-start;
 		}
 
-			#header h1 a {
+			#header div.header-left a {
 				border: 0;
 				display: block;
 				height: inherit;
@@ -3476,7 +3505,7 @@ input, select, textarea {
 
 				@media screen and (max-width: 736px) {
 
-					#header h1 a {
+					#header div.header-left a {
 						font-size: 0.8em;
 					}
 
@@ -3594,7 +3623,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 2.5em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3964,10 +3993,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/manhattan_skyline.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/manhattan_skyline.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/manhattan_skyline.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/manhattan_skyline.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
