@@ -2052,7 +2052,7 @@ input, select, textarea {
 			border-radius: 3px;
 			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 2em;
+			font-size: 3em;
 			height: calc(2.25em + 2px);
 			line-height: 2.25em;
 			text-align: center;
@@ -2326,11 +2326,11 @@ input, select, textarea {
 
 		ul.icons.major {
 			padding: 1em 0;
-			line-height: 3em;
+			line-height: 4em;
 		}
 
 			ul.icons.major li {
-				padding-right: 1.5em;
+				padding-right: 6em;
 			}
 
 				@media screen and (max-width: 736px) {
