@@ -2685,6 +2685,10 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: center;
 	}
+
+	#one ul.features > li:first-child a {
+		border-bottom: none;
+	}
 	
 	#one ul.features > li:last-child {
 		padding: 2em;
